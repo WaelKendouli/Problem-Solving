@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TRANSHOST\\source\\repos\\Problme27course7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5886416-82CE-4A2F-BF15-0BE2E535E026}|Problme27course7\\Problme27course7.vcxproj|C:\\Users\\TRANSHOST\\source\\repos\\Problme27course7\\Problme27course7\\Problme27course7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5886416-82CE-4A2F-BF15-0BE2E535E026}|Problme27course7\\Problme27course7.vcxproj|solutionrelative:Problme27course7\\Problme27course7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problme27course7.cpp",
+              "DocumentMoniker": "C:\\Users\\TRANSHOST\\source\\repos\\Problme27course7\\Problme27course7\\Problme27course7.cpp",
+              "RelativeDocumentMoniker": "Problme27course7\\Problme27course7.cpp",
+              "ToolTip": "C:\\Users\\TRANSHOST\\source\\repos\\Problme27course7\\Problme27course7\\Problme27course7.cpp",
+              "RelativeToolTip": "Problme27course7\\Problme27course7.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T23:29:56.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
