@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int ReadNumber(string str)
+{
+	int Number;
+	do
+	{
+		cout << str << endl;
+		cin >> Number;
+	} while (Number <= 0);
+
+	return Number;
+}
+bool SumAllDivisors(int N)
+{
+	int S = 0;
+	
+	for (int i = 1; i < N; i++)
+	{
+		if (N % i == 0)
+		{
+			S = S + i;
+		}
+	}
+	return N==S;
+}
+
+string PrintResult()
+{
+	if (SumAllDivisors(ReadNumber("Number ? : ")))
+		return "Perfect";
+	else
+		return "Not Perfect";
+}
+int main()
+{
+	cout << PrintResult();
+}
+   

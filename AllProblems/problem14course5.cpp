@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int ReadNumber(string str)
+{
+	int Number;
+	do
+	{
+		cout << str << endl;
+		cin >> Number;
+	} while (Number <= 0 );
+
+	return Number;
+}
+void PrintInvertedLetterPattren(int number)
+{
+	for (int i = 65+number-1; i >= 65; i--)
+	{
+		for (int j = 1; j <= number - (65 + number - 1 - i ) ; j++)
+		{
+			
+			cout << char(i);
+		}
+		cout << "\n";
+
+	}
+
+}
+
+int main()
+{
+	PrintInvertedLetterPattren(ReadNumber("Number from 1 to 26 :"));
+
+}
+
+
